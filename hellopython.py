@@ -42,8 +42,20 @@
 
 # [[print(val) for val in lis] for lis in nested_list]
 
-# inner_loop = ['X' if col % 2 != 0 else 'O' for col in range(1,5)]
+inner_loop = ['X' if col % 2 != 0 else 'O' for col in range(1,5)]
 
-# print([inner_loop for row in range(1,5)])
+print([inner_loop for row in range(1,5)])
 
-# print([['X' if col % 2 != 0 else 'O' for col in range(1,5)] for row in range(1,5)])
+print([['X' if col % 2 != 0 else 'O' for col in range(1,5)] for row in range(1,5)])
+
+# dict_of_words = {"hi": "there", 77: 3}
+
+# print(dict_of_words["hi"])
+# print(dict_of_words[77])
+
+# for i in dict_of_words.items():
+#     print(i)
+
+# print("hi" in dict_of_words)
+
+# testing for git 
